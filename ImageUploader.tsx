@@ -20,7 +20,7 @@ export default function ImageUploader({ setPlantInfo, setImageUrl }: ImageUpload
       const imageUrl = URL.createObjectURL(file);
       setImageUrl(imageUrl);
 
-      const apiKey = "AIzaSyBlwi800k9ebLj0BthcgXPkqO59J_MiqzY"; // Replace with your actual API key
+      const apiKey = "apikey"; // Replace with your actual API key
       if (!apiKey) {
         throw new Error('Gemini API key is not set');
       }
